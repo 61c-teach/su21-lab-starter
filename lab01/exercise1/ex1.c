@@ -1,8 +1,8 @@
 #include <string.h>
 #include "ex1.h"
 
-/* returns the number of times LETTER appears in STR 
-There are two different ways to iterate through a string
+/* Returns the number of times LETTER appears in STR.
+There are two different ways to iterate through a string.
 1st way hint: strlen() may be useful
 2nd way hint: all strings end in a null terminator */
 int num_occurrences(char *str, char letter) {

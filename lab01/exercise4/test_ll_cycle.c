@@ -16,7 +16,7 @@ int main(void) {
     nodes[0].next = &nodes[1];
     nodes[1].next = &nodes[2];
     nodes[2].next = &nodes[3];
-    printf("Checking first list for cycles. There should be none, ll_has_cycle says it has %s cycle\n", ll_has_cycle(&nodes[0])?"a":"no");
+    printf("Checking first list for cycles. There should be none, ll_has_cycle says it has %s cycle\n", ll_has_cycle(&nodes[0]) ? "a" : "no");
     assert(!ll_has_cycle(&nodes[0]));
 
     nodes[4].next = &nodes[5];
@@ -26,7 +26,7 @@ int main(void) {
     nodes[8].next = &nodes[9];
     nodes[9].next = &nodes[10];
     nodes[10].next = &nodes[4];
-    printf("Checking second list for cycles. There should be a cycle, ll_has_cycle says it has %s cycle\n", ll_has_cycle(&nodes[4])?"a":"no");
+    printf("Checking second list for cycles. There should be a cycle, ll_has_cycle says it has %s cycle\n", ll_has_cycle(&nodes[4]) ? "a" : "no");
     assert(ll_has_cycle(&nodes[4]));
 
     nodes[11].next = &nodes[12];
@@ -36,21 +36,21 @@ int main(void) {
     nodes[15].next = &nodes[16];
     nodes[16].next = &nodes[17];
     nodes[17].next = &nodes[14];
-    printf("Checking third list for cycles. There should be a cycle, ll_has_cycle says it has %s cycle\n", ll_has_cycle(&nodes[11])?"a":"no");
+    printf("Checking third list for cycles. There should be a cycle, ll_has_cycle says it has %s cycle\n", ll_has_cycle(&nodes[11]) ? "a" : "no");
     assert(ll_has_cycle(&nodes[11]));
 
     nodes[18].next = &nodes[18];
-    printf("Checking fourth list for cycles. There should be a cycle, ll_has_cycle says it has %s cycle\n", ll_has_cycle(&nodes[18])?"a":"no");
+    printf("Checking fourth list for cycles. There should be a cycle, ll_has_cycle says it has %s cycle\n", ll_has_cycle(&nodes[18]) ? "a" : "no");
     assert(ll_has_cycle(&nodes[18]));
 
     nodes[19].next = &nodes[20];
     nodes[20].next = &nodes[21];
     nodes[21].next = &nodes[22];
     nodes[22].next = &nodes[23];
-    printf("Checking fifth list for cycles. There should be none, ll_has_cycle says it has %s cycle\n", ll_has_cycle(&nodes[19])?"a":"no");
+    printf("Checking fifth list for cycles. There should be none, ll_has_cycle says it has %s cycle\n", ll_has_cycle(&nodes[19]) ? "a" : "no");
     assert(!ll_has_cycle(&nodes[19]));
 
-    printf("Checking length-zero list for cycles. There should be none, ll_has_cycle says it has %s cycle\n\n", ll_has_cycle(NULL)?"a":"no");
+    printf("Checking length-zero list for cycles. There should be none, ll_has_cycle says it has %s cycle\n\n", ll_has_cycle(NULL) ? "a" : "no");
     assert(!ll_has_cycle(NULL));
 
     printf("Congrats, you passed all the test cases!\n");
