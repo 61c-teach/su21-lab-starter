@@ -4,7 +4,7 @@
 /*
 Password checker
 
-Requirements
+Requirements:
 - Password must be at least 10 characters
 - Password must contain at least
     - 1 upper case letter
@@ -12,10 +12,10 @@ Requirements
     - 1 number
 - Password cannot contain the person's first name or last name (case sensitive)
 
-- For the simplicity of this exercise:
-    - this is not the most efficient way to implement this program
-    - these functions do not perform any error checking
-    - you can assume that the first and last name will never be the empty string
+For the simplicity of this exercise:
+- This is not the most efficient way to implement this program
+- These functions do not perform any error checking
+- You can assume that the first and last name will never be the empty string
 */
 
 /* Returns true if the length of PASSWORD is at least 10, false otherwise */

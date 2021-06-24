@@ -8,7 +8,7 @@ int main(int argc, char **argv) {
 
     Node *head = NULL;
 
-    /***********reverse_list test***********/
+    /*********** reverse_list test ***********/
     reverse_list(&head);
     for (int i = 0; i < 5; ++i) {
         add_to_front(&head, i);
@@ -25,7 +25,7 @@ int main(int argc, char **argv) {
 
     printf("Congrats! You have passed the reverse_list test!\n\n");
 
-    /************add_to_back test***********/
+    /************ add_to_back test ***********/
     Node *head_2 = NULL;
     add_to_back(&head_2, 15);
     add_to_back(&head_2, 12);

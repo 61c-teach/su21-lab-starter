@@ -7,8 +7,8 @@ int main(void) {
     printf("Running tests...\n\n");
 
     int i;
-    node nodes[25]; //enough to run our tests
-    for(i=0; i < sizeof(nodes)/sizeof(node); i++) {
+    node nodes[25]; // enough to run our tests
+    for(i = 0; i < sizeof(nodes)/sizeof(node); i++) {
         nodes[i].next = 0;
         nodes[i].value = 0;
     }
