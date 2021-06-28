@@ -103,7 +103,7 @@ int vector_get(vector_t *v, size_t loc) {
 /* Free up the memory allocated for the passed vector.
    Remember, you need to free up ALL the memory that was allocated. */
 void vector_delete(vector_t *v) {
-    /* YOUR SOLUTION HERE */
+    /* YOUR CODE HERE */
 }
 
 /* Set a value in the vector. If the extra memory allocation fails, call
@@ -113,5 +113,5 @@ void vector_set(vector_t *v, size_t loc, int value) {
      * allocated?  Remember that unset locations should contain a value of 0.
      */
 
-    /* YOUR SOLUTION HERE */
+    /* YOUR CODE HERE */
 }
