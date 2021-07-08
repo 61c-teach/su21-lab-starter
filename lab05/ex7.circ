@@ -146,10 +146,6 @@
       <a name="facing" val="east"/>
       <a name="label" val="CLOCK0"/>
     </comp>
-    <comp lib="0" loc="(570,250)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="Input0"/>
-    </comp>
     <comp lib="0" loc="(580,50)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
@@ -211,7 +207,6 @@
     <wire from="(570,130)" to="(620,130)"/>
     <wire from="(570,180)" to="(570,210)"/>
     <wire from="(570,210)" to="(590,210)"/>
-    <wire from="(570,250)" to="(590,250)"/>
     <wire from="(570,50)" to="(570,130)"/>
     <wire from="(570,50)" to="(580,50)"/>
     <wire from="(640,100)" to="(640,120)"/>
@@ -495,19 +490,19 @@
       <a name="facing" val="east"/>
       <a name="label" val="IN0"/>
     </comp>
-    <comp lib="0" loc="(550,360)" name="Tunnel">
+    <comp lib="0" loc="(550,370)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="IN1"/>
     </comp>
-    <comp lib="0" loc="(550,400)" name="Tunnel">
+    <comp lib="0" loc="(550,410)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="IN0"/>
     </comp>
-    <comp lib="0" loc="(550,450)" name="Tunnel">
+    <comp lib="0" loc="(550,470)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="IN1"/>
     </comp>
-    <comp lib="0" loc="(550,490)" name="Tunnel">
+    <comp lib="0" loc="(550,510)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="IN0"/>
     </comp>
@@ -518,14 +513,14 @@
       <a name="locked" val="true"/>
       <a name="output" val="true"/>
     </comp>
-    <comp lib="0" loc="(660,380)" name="Pin">
+    <comp lib="0" loc="(660,390)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="OUT_YELLOW"/>
       <a name="locked" val="true"/>
       <a name="output" val="true"/>
     </comp>
-    <comp lib="0" loc="(660,470)" name="Pin">
+    <comp lib="0" loc="(660,490)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="OUT_GREEN"/>
@@ -533,23 +528,23 @@
       <a name="output" val="true"/>
     </comp>
     <comp lib="1" loc="(430,220)" name="NOT Gate"/>
-    <comp lib="1" loc="(620,380)" name="AND Gate">
+    <comp lib="1" loc="(620,490)" name="AND Gate">
       <a name="negate0" val="true"/>
     </comp>
     <comp lib="1" loc="(630,290)" name="NOR Gate"/>
-    <comp lib="1" loc="(630,470)" name="AND Gate">
+    <comp lib="1" loc="(630,390)" name="AND Gate">
       <a name="negate1" val="true"/>
     </comp>
     <wire from="(190,120)" to="(220,120)"/>
     <wire from="(190,170)" to="(220,170)"/>
     <wire from="(550,270)" to="(570,270)"/>
     <wire from="(550,310)" to="(570,310)"/>
-    <wire from="(550,360)" to="(560,360)"/>
-    <wire from="(550,400)" to="(570,400)"/>
-    <wire from="(550,450)" to="(580,450)"/>
-    <wire from="(550,490)" to="(570,490)"/>
-    <wire from="(620,380)" to="(660,380)"/>
+    <wire from="(550,370)" to="(580,370)"/>
+    <wire from="(550,410)" to="(570,410)"/>
+    <wire from="(550,470)" to="(560,470)"/>
+    <wire from="(550,510)" to="(570,510)"/>
+    <wire from="(620,490)" to="(660,490)"/>
     <wire from="(630,290)" to="(660,290)"/>
-    <wire from="(630,470)" to="(660,470)"/>
+    <wire from="(630,390)" to="(660,390)"/>
   </circuit>
 </project>
